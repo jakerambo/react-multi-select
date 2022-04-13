@@ -17,13 +17,13 @@ Multi select is a straight forward component that helps a user select multiple i
  **Installation using npm:**
 
 ```
- npm install @kenshooui/react-multi-select --save
+ npm install @jakerambo/react-multi-select --save
 ```
 
  **Installation using Yarn:**
 
 ```
- yarn add @kenshooui/react-multi-select
+ yarn add @jakerambo/react-multi-select
 ```
 
  ## Import styles
@@ -31,7 +31,7 @@ Multi select is a straight forward component that helps a user select multiple i
 Include the component's css on your app
 
  ```jsx
-import "@kenshooui/react-multi-select/dist/style.css"
+import "@jakerambo/react-multi-select/dist/style.css"
  ```
 
  ## How to use
@@ -40,7 +40,7 @@ import "@kenshooui/react-multi-select/dist/style.css"
 
 ```jsx
 import React, { Component } from "react";
-import MultiSelect from "@kenshooui/react-multi-select";
+import MultiSelect from "@jakerambo/react-multi-select";
 
 class Example extends Component {
   constructor(props) {
